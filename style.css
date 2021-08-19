@@ -9,7 +9,7 @@ body{
 
 /* banner start */
 .banner{
-    width: 1440px;
+    width: 100%;
     height: 677px;
     border:1px solid black;
     background-color: #2D25A0;
@@ -51,29 +51,29 @@ body{
     transform: rotate(180deg);
 }
 .banner-img img {
-    width: 556.01px;
+    width: 100%;
     height: 438px;
     
 }
 /* player section */
  .container{
-    width: 1440px;
+    width: 100%;
     background-color:#FFFFFF
 }
 .players{
-    width:1050px;
+    width:90%;
     display: grid;
     grid-template-columns: repeat(3,1fr);  
     margin-top:27px;
     margin-right:210px;
-    margin-left:100px;
+    margin-left:60px;
    
 
 
 }
 
 .player{
-    width:330px;
+    width:90%;
     height:474px;
     padding:15px;
     padding-right:0px;
@@ -83,11 +83,11 @@ body{
   
 }
 .player img{
-    width:300px;
+    width:90%;
     height:256px;
 } 
 .player-details{
-    width:300px;
+    width:90%;
 
 }
 .player-details h2{
@@ -133,7 +133,7 @@ footer{
 }
 /* media queries */
 /* mobile devices */
-@media only screen and (max-width:688px){
+@media only screen and (max-width:425px){
     .banner{
         width:100%;
         height:100%;
